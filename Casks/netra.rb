@@ -7,7 +7,7 @@ cask "netra" do
   desc "Menu bar eye on coding-agent usage, cost, and quotas — with agent-aware keep-awake"
   homepage "https://github.com/sahabji0P/netra"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Netra.app"
 
