@@ -18,7 +18,7 @@ cask "netra" do
   ]
 
   caveats <<~EOS
-    Netra is not notarized yet. Install with:
-      brew install --cask --no-quarantine sahabji0P/tap/netra
+    Netra is not notarized yet. After installing, allow it to run with:
+      xattr -dr com.apple.quarantine /Applications/Netra.app
   EOS
 end
