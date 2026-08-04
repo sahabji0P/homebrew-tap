@@ -1,6 +1,6 @@
 cask "netra" do
-  version "0.1.1"
-  sha256 "7e113c68d861e2ac401a57a80cb27303dc4e6a79a4d84f360b839a476bbdff45"
+  version "0.1.2"
+  sha256 "4e8fcc107f40a782dfe5d0778abc21abee31ad0163d7abdd12b77b840749dde7"
 
   url "https://github.com/sahabji0P/netra/releases/download/v#{version}/Netra-#{version}.zip"
   name "Netra"
@@ -8,6 +8,7 @@ cask "netra" do
   homepage "https://github.com/sahabji0P/netra"
 
   depends_on macos: :sonoma
+  depends_on arch: :arm64
 
   app "Netra.app"
 
