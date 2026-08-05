@@ -60,5 +60,5 @@ explains why. To inspect from a terminal:
 
 ```sh
 /Applications/Netra.app/Contents/Resources/ccusage-bin daily --json --offline | head -c 300
-log show --last 10m --predicate 'subsystem == "com.shashwatjain.netra"' --info
+log show --last 10m --predicate 'subsystem == "com.sahabji0P.netra"' --info
 ```
