@@ -12,7 +12,7 @@ cask "netra" do
 
   app "Netra.app"
 
-  uninstall quit: "in.airaai.netra"
+  uninstall quit: "com.shashwatjain.netra"
 
   zap trash: [
     "~/Library/Application Support/Netra",
