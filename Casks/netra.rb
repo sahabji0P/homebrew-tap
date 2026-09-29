@@ -1,6 +1,6 @@
 cask "netra" do
-  version "1.2.1"
-  sha256 "b53205263e31491fd56b6a1772431c1043f06ba1464175c4370a0b627b9b8d0c"
+  version "1.2.5"
+  sha256 "51b171b6d475525da0df52d906b0e1d70db39d283f6950f85c6597d680db2885"
 
   url "https://github.com/sahabji0P/netra/releases/download/v#{version}/Netra-#{version}.zip"
   name "Netra"
